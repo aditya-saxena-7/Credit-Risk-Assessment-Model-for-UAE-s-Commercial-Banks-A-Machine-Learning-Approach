@@ -5,7 +5,7 @@ The Data Collection and Variable Definition section is crucial in setting up the
 #### Data Collection
 
 **Summary:**
-The dataset used in this study comprises both accepted and rejected loan applications from different commercial banks in the UAE, collected from the years 2016 to 2018. The data consists of 7778 cases. Out of these, 292 applications (59.3%) were deemed creditworthy, while 200 applications (40.3%) were not.
+The dataset used in this study comprises both accepted and rejected loan applications from different commercial banks in the UAE, collected from the years 2016 to 2018. The data consists of 7778 cases. Out of these, 4612 applications (59.3%) were deemed creditworthy, while 3166 applications (40.3%) were not.
 
 **Layman Explanation:**
 Imagine you are collecting report cards from different schools to find out which students passed or failed over three years. Similarly, the researchers collected loan applications from various banks over three years to see which ones were approved (passed) and which ones were rejected (failed). 📄🏦
