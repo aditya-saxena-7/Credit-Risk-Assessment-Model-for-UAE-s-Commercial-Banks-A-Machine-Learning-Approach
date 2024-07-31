@@ -37,7 +37,8 @@ By leveraging ML and LDA, UAE's commercial banks can significantly enhance their
 
 **Dr. Parizad Dungore**
 - **ORCID ID:** 0000-0002-1943-8426
-- **Institution:** Birla Institute of Technology and Science, Pilani
+- **Institution:** Assistant Professor, Finance and Accountancy, Department
+of Humanities and Social Science, Birla Institute of Technology and Science, Pilani
 
 ### Link to Original Publication
 - **Title:** Credit Risk Assessment Model for UAE’s Commercial Banks: A Machine Learning Approach
