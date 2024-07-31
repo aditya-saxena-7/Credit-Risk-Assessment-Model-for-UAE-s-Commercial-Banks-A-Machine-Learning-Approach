@@ -22,14 +22,15 @@
 
 ### Abstract
 ---
-**Summary:**
 The paper explores the use of machine learning (ML) to improve credit risk assessment in UAE's commercial banks. Traditional credit rating systems classify credits as either "good" or "bad," which lacks precision. Machine learning models, specifically Linear Discriminant Analysis (LDA), can provide more accurate and efficient predictions. The goal is to create and validate a credit risk model using LDA to differentiate between good and bad creditors, thereby helping banks avoid financial losses and crises.
 
 **Layman Explanation:**
 Banks need to decide if they should lend money to people or businesses. Traditionally, they use simple methods to classify borrowers into "good" or "bad" categories, which isn't always accurate. This paper suggests using machine learning, a type of computer technology that learns from data, to make better predictions. By using a method called Linear Discriminant Analysis (LDA), the model can more accurately tell if a borrower is likely to repay the loan or not.
 
 **Importance and Context:**
-Credit risk assessment is crucial for banks because it determines whether they will get their money back when they lend it out. Accurate predictions help banks avoid losses and financial crises. Traditional methods are not precise enough, and biases can influence decisions. Using machine learning can provide a more objective and accurate way to assess credit risk, improving the overall health of the banking sector.
+Credit risk assessment is crucial for banks because it determines whether they will get their money back when they lend it out. Accurate predictions help banks avoid losses and financial crises. 
+
+Traditional methods are not precise enough, and biases can influence decisions. Using machine learning can provide a more objective and accurate way to assess credit risk, improving the overall health of the banking sector.
 
 **Math Intuition and ML Terminologies:**
 ---
