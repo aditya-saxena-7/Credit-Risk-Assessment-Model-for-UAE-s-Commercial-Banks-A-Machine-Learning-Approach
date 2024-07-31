@@ -73,3 +73,20 @@ The application of LDA in this research is crucial for enhancing the credit risk
 
 By leveraging LDA, the researchers aim to improve the performance of machine learning models in predicting credit risk, ultimately helping banks make better lending decisions and reducing the risk of financial crises.
 
+## **Table of Contents:**
+---
+1. [Abstract](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach)
+   
+2. [Introduction](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Introduction.md) 
+
+4. [Related Work](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Related%20Work.md) 
+
+5. [Data Collection and Variable Definition](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Data%20Collection%20and%20Variable%20Definition.md) 
+
+6. [Methodology](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Methodology.md)
+
+7. [Data Reduction Using Linear Discriminant Analysis (LDA)](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Data%20Reduction%20Using%20Linear%20Discriminant%20Analysis%20(LDA).md)
+
+8. [Experimentation and Results](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Experimentation%20and%20Results.md)
+
+9. [Conclusion and Further Research](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Conclusion%20and%20Further%20Research.md)
