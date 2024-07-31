@@ -188,13 +188,59 @@ Logistic Regression uses a logistic function to model the probability of the def
 
 [Link for Logistic Regression](https://www.notion.so/78b29f96413c49a48ae3440b44849871?v=65df3ed276124b33862fa00250bd1029)
 
+### Experimentation and Results
 
+The experimentation involved training and testing four machine learning models: Logistic Regression and Decision Trees on a dataset of 7778 customer records from UAE commercial banks. 
 
+The models were evaluated using different sets of attributes and their performance was measured before and after applying Linear Discriminant Analysis (LDA).
 
+#### Attributes Used
 
+The attributes used in the models were:
+1. Resolving utilization of unsecured lines (P1)
+2. Age (P2)
+3. Number of times 30-59 days past due (P3)
+4. Debt ratio (P4)
 
+The models were tested with different combinations of these attributes:
+- **2 attributes:** P1, P2
+- **3 attributes:** P1, P2, P3
+- **4 attributes:** P1, P2, P3, P4
 
+### Logistic Regression
 
+#### Without LDA
+
+**Summary:**
+Logistic Regression, a linear model for binary classification, estimates the probability that a given input point belongs to a certain class using a logistic function. It was evaluated using the raw dataset without dimensionality reduction.
+
+**Results:**
+- With 2 attributes: 93.739% accuracy
+- With 3 attributes: 92.115% accuracy
+- With 4 attributes: 92.522% accuracy
+
+**Layman Explanation:**
+Logistic Regression is like drawing a line to separate apples from oranges. Without LDA, it directly uses the raw data to draw this line.
+
+#### With LDA
+
+**Summary:**
+LDA was applied to reduce the dimensionality of the dataset, retaining the most important features while discarding the less significant ones. The transformed dataset was then used to train and test the Logistic Regression model.
+
+**Results:**
+- With 2 attributes: 95.026% accuracy
+- With 3 attributes: 95.066% accuracy
+- With 4 attributes: 95.144% accuracy
+
+### Experimentation and Results Table
+
+| Model                | Accuracy Before LDA (%) | Accuracy After LDA (%) |
+|----------------------|--------------------------|-------------------------|
+|                      | 2 Attributes  | 3 Attributes  | 4 Attributes  | 2 Attributes  | 3 Attributes  | 4 Attributes  |
+| Logistic Regression  | 93.739        | 92.115        | 92.522        | 95.026        | 95.066        | 95.144        |
+| AdaBoost Classifier  | 92.204        | 92.638        | 93.154        | 95.009        | 95.023        | 95.200        |
+| Decision Trees       | 92.488        | 92.455        | 93.451        | 94.921        | 94.918        | 95.042        |
+| Neural Network       | 93.291        | 92.007        | 93.633        | 94.985        | 94.999        | 95.186        |
 
 
 
