@@ -135,6 +135,67 @@ The dataset includes 11 variables: 10 input variables and 1 output variable.
     - **Definition:** Indicates whether the creditor is a good or bad creditor.
     - **Layman Explanation:** The final result showing if the borrower is likely to repay the loan (good) or not (bad). ✅❌
 
+### Methodology
+
+#### Data Preprocessing
+Data preprocessing includes cleaning the data, handling missing values, normalizing the data, and reducing its dimensionality using LDA. This step prepares the data for machine learning algorithms.
+
+#### Data Cleaning
+Data cleaning involves identifying and correcting errors, filling in missing values, and removing irrelevant data. This step ensures the dataset is accurate and complete.
+
+#### Data Transformation
+Data transformation involves converting data into a suitable format for analysis. This includes scaling the data so that different features are comparable and applying logarithmic transformations to manage wide variations.
+
+### Data Reduction Using Linear Discriminant Analysis (LDA)
+
+Linear Discriminant Analysis (LDA) is a linear machine learning algorithm used for multi-class classification. It seeks to separate (or discriminate) samples in the training dataset by their class value (e.g., good or bad creditor). The model aims to find a linear combination of input variables that maximizes the separation between classes.
+
+#### **Math Intuition:**
+**Mathematical Concepts:**
+LDA works by projecting the data onto a lower-dimensional space. It calculates the mean vectors for each class and the overall mean vector for all classes. The goal is to maximize the distance between the means of different classes (between-class scatter) while minimizing the spread within each class (within-class scatter).
+
+- **Between-class scatter matrix (S_B):** Measures the spread of the means of different classes.
+- **Within-class scatter matrix (S_W):** Measures the spread of samples within each class.
+
+[Link for LDA](https://www.notion.so/343a3b1684a5480b968121afe6c3a709?v=d6b08dbd6485489a8825444053600879)
+
+#### Results from LDA
+
+**Summary:**
+After applying LDA, the features are ranked based on their correlation with the output (creditworthiness). The attributes with the highest correlation are selected for further modeling.
+
+**Results:**
+The attributes in decreasing order of correlation with the output are:
+1. Resolving utilization of unsecured lines
+2. Age
+3. Number of times 30-59 days past due
+4. Debt ratio
+5. Monthly income
+6. Number of open credit lines and loans
+7. Number of times 90 days late
+8. Number of real estate loans or lines
+9. Number of times 60-89 days past due
+10. Number of dependents
+
+The results from LDA highlight the most influential factors in determining credit risk. By focusing on these key attributes, the model becomes more efficient and accurate in predicting creditworthiness.
+
+### Logistic Regression
+
+Logistic Regression is a linear model used for binary classification. It estimates the probability that a given input point belongs to a certain class (e.g., good or bad creditor) using a logistic function.
+
+**Math Intuition:**
+Logistic Regression uses a logistic function to model the probability of the default event, ensuring the output is between 0 and 1.
+
+[Link for Logistic Regression](https://www.notion.so/78b29f96413c49a48ae3440b44849871?v=65df3ed276124b33862fa00250bd1029)
+
+
+
+
+
+
+
+
+
 
 
 
