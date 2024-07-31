@@ -70,6 +70,79 @@ A study proposed two credit scoring models using data mining techniques for Jord
 
 Hybrid models can achieve higher accuracy by leveraging the strengths of multiple algorithms. They are complex but often outperform single models in credit risk assessment.
 
+#### Data Collection
+
+The dataset used in this study comprises both accepted and rejected loan applications from different commercial banks in the UAE, collected from the years 2016 to 2018. The data consists of 7778 cases. 
+
+Out of these, 4612 applications (59.3%) were deemed creditworthy, while 3166 applications (40.3%) were not.
+
+The dataset includes 11 variables: 10 input variables and 1 output variable. 
+
+**Variable Definitions and Explanations:**
+
+1. **Resolving the utilization of unsecured lines (P1)**
+   - **Type:** Scale
+   - **Definition:** Indicates the credit card limits of the borrower after excluding any current loan debt and real estate.
+   - **Layman Explanation:** This shows how much credit is available on the borrower’s credit cards, excluding any other debts or mortgages. 💳
+
+2. **Age (P2)**
+   - **Type:** Scale
+   - **Definition:** Applicant’s age.
+   - **Layman Explanation:** Simply the age of the person applying for the loan. 🎂
+
+3. **Number of Times 30-59 Days Past Due Not Worse (P3)**
+   - **Type:** Scale
+   - **Definition:** The number of times borrowers have paid their EMIs late but within 30 to 59 days.
+   - **Layman Explanation:** This tracks how often the borrower was late on payments but not by more than 59 days. ⏳
+
+4. **Debt Ratio (P4)**
+   - **Type:** Scale (0 – 1)
+   - **Definition:** Ratio of monthly debt payments to monthly income.
+   - **Layman Explanation:** If someone earns $1000 a month and spends $700 on debts, their debt ratio is 0.7 ($700/$1000). 💸➗
+
+5. **Monthly Income (P5)**
+   - **Type:** Scale
+   - **Definition:** Total monthly income of the borrower, log-transformed.
+   - **Layman Explanation:** How much money the borrower makes every month, adjusted to a logarithmic scale to manage wide variations. 💰📈
+
+6. **Number of Open Credit Lines and Loans (P6)**
+   - **Type:** Scale
+   - **Definition:** Number of open loans and credit cards the borrower holds.
+   - **Layman Explanation:** Total number of active loans and credit cards the borrower has. 💳🏠
+
+7. **Number of Times 90 Days Late (P7)**
+   - **Type:** Scale
+   - **Definition:** Number of times a borrower has paid their dues 90 days after the due date.
+   - **Layman Explanation:** How often the borrower was very late (90 days) on their payments. 🕰️
+
+8. **Number Real Estate Loans or Lines (P8)**
+   - **Type:** Scale
+   - **Definition:** Number of loans the borrower holds for real estate.
+   - **Layman Explanation:** Number of mortgages or home loans the borrower has. 🏠
+
+9. **Number of Times 60-89 Days Past Due Not Worse (P9)**
+   - **Type:** Scale
+   - **Definition:** Number of times borrowers have paid their EMIs late but within 60 to 89 days.
+   - **Layman Explanation:** This shows how often the borrower was late by up to 89 days on payments. ⏲️
+
+10. **Number of Dependents (P10)**
+    - **Type:** Scale
+    - **Definition:** Number of dependent family members the borrower has, excluding the borrower.
+    - **Layman Explanation:** How many people depend financially on the borrower (like children or elderly parents). 👨‍👩‍👧‍👦
+
+11. **Outcome (Output)**
+    - **Type:** Binary
+    - **Definition:** Indicates whether the creditor is a good or bad creditor.
+    - **Layman Explanation:** The final result showing if the borrower is likely to repay the loan (good) or not (bad). ✅❌
+
+
+
+
+
+
+
+
+
 
 
 
