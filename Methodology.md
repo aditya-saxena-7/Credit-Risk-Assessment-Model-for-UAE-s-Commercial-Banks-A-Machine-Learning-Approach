@@ -120,3 +120,21 @@ Neural Networks are powerful and can model very complex relationships but requir
 ### Importance and Context Related to the Overall Goal
 
 The methodology outlined in this section is crucial for building an accurate and reliable credit risk assessment model. Each step, from data preprocessing to model selection, contributes to the overall goal of improving the prediction of loan defaults. By implementing and comparing multiple machine learning models, the study aims to identify the most effective approach for credit risk assessment in UAE’s commercial banks. This, in turn, helps banks make better lending decisions, reduce financial risks, and improve their overall stability and profitability. 🏦💡📈
+
+## **Table of Contents:**
+---
+1. [Abstract](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach)
+   
+2. [Introduction](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Introduction.md) 
+
+4. [Related Work](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Related%20Work.md) 
+
+5. [Data Collection and Variable Definition](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Data%20Collection%20and%20Variable%20Definition.md) 
+
+6. [Methodology](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Methodology.md)
+
+7. [Data Reduction Using Linear Discriminant Analysis (LDA)](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Data%20Reduction%20Using%20Linear%20Discriminant%20Analysis%20(LDA).md)
+
+8. [Experimentation and Results](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Experimentation%20and%20Results.md)
+
+9. [Conclusion and Further Research](https://github.com/aditya-saxena-7/Credit-Risk-Assessment-Model-for-UAE-s-Commercial-Banks-A-Machine-Learning-Approach/blob/main/Conclusion%20and%20Further%20Research.md)
