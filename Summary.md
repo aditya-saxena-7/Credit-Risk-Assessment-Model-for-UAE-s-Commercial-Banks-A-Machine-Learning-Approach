@@ -242,12 +242,39 @@ LDA was applied to reduce the dimensionality of the dataset, retaining the most 
 | Decision Trees       | 92.488        | 92.455        | 93.451        | 94.921        | 94.918        | 95.042        |
 | Neural Network       | 93.291        | 92.007        | 93.633        | 94.985        | 94.999        | 95.186        |
 
+### Conclusion and Further Research
 
+The paper investigated the performance of various machine learning models, including Logistic Regression, with and without Linear Discriminant Analysis (LDA) for credit risk assessment. 
 
+It was found that LDA significantly improved the accuracy of the models by reducing the dimensionality of the data and highlighting the most critical attributes.
 
+The attributes used in the models were:
+1. **Resolving utilization of unsecured lines (P1):** How much credit is available on credit cards after excluding other debts.
+2. **Age (P2):** The age of the borrower.
+3. **Number of times 30-59 days past due (P3):** How often payments were late by 30-59 days.
+4. **Debt ratio (P4):** The ratio of monthly debt payments to monthly income.
 
+**Results:**
+- **Without LDA:**
+  - Logistic Regression achieved a maximum accuracy of 93.739% using 2 attributes.
+- **With LDA:**
+  - Logistic Regression achieved a maximum accuracy of 95.144% using 4 attributes.
 
+| Model                | Accuracy Before LDA (%) | Accuracy After LDA (%) |
+|----------------------|--------------------------|-------------------------|
+|                      | 2 Attributes  | 3 Attributes  | 4 Attributes  | 2 Attributes  | 3 Attributes  | 4 Attributes  |
+| Logistic Regression  | 93.739        | 92.115        | 92.522        | 95.026        | 95.066        | 95.144        |
 
+### Further Research
+
+**Exploration of Other Models:**
+Future research could explore other advanced machine learning models and compare their performance with and without LDA.
+
+**Real-World Implementation:**
+Implementing these models in real-world banking environments could provide further validation and help refine the models based on practical insights.
+
+**Layman Explanation:**
+Future studies could test different recipes (models) and see how they perform in a real kitchen (banks). This would help in finding the best approach to make accurate predictions. 👩‍🍳🔬
 
 
 
